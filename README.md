@@ -9,13 +9,14 @@ It compares Custom Objects and Lists, For other implementations like Maps we wil
 In order to run this project, we need:
 * java 17 sdk installed and configured
 * maven installed with "mvn" available in the PATH(I use version 3.9.4)
+* Git in order to download the project 
 * An java compatible IDE to import the project and run the Tests
 
 This is a basic maven project that can be imported in any maven compatible IDE. The only needed dependencies are
 for the Unit tests.
 
 # How to Run the JUnit tests:
-1. Unzip the project in a nre folder
+1. Clone the project (git clone https://github.com/slippumaknot/difftool.git)
 2. Import the project as Maven project in any java IDE
 3. Execute 'maven clean' to compile the project
 4. Run the test unit class: DiffToolTest
